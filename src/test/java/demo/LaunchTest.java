@@ -25,6 +25,10 @@ public class LaunchTest
 		
 		System.out.println(driver.getTitle());
 		
+		System.out.println(driver.getWindowHandle());
+		
+		driver.close();
+		
 	}
 
 }
